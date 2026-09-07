@@ -110,9 +110,8 @@ export function Header() {
                 </nav>
               </div>
 
-              {/* Botão de WhatsApp em destaque no rodapé da gaveta */}
-              <div className="pt-4 border-t border-border">
-                <CtaButton onClick={() => setOpen(false)} className="w-full">
+              <div onClick={() => setOpen(false)} className="w-full">
+                <CtaButton className="w-full">
                   Falar no WhatsApp
                 </CtaButton>
               </div>

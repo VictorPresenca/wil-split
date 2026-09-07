@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { Phone, Clock, MapPin, Mail, Send } from "lucide-react";
 import { WA_LINK } from "./CtaButton";
-import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa6";
+import { FaInstagram, FaFacebook } from "react-icons/fa6";
 
 export function Contact() {
   const [form, setForm] = useState({ nome: "", telefone: "", servico: "Instalação", mensagem: "" });

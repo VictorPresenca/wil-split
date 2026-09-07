@@ -19,7 +19,7 @@ export function Contact() {
     "w-full rounded-xl border border-input bg-background px-4 py-3 text-sm font-medium text-navy placeholder:text-navy/40 focus:outline-none focus:ring-2 focus:ring-ring";
 
   return (
-    <section id="contato" className="pb-16 md:pb-24">
+    <section id="contato" className="pb-16 scroll-mt-30 md:pb-24">
       <div className="mx-auto grid max-w-6xl gap-10 px-5 lg:grid-cols-2">
         <div>
           <span className="text-xs font-bold uppercase tracking-widest text-primary">

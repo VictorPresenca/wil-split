@@ -6,6 +6,7 @@ import { Metrics } from './components/Metrics'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import { WhatsAppFloat } from './components/WhatsappFloat'
+import { CookieBanner } from "./components/CookieBanner"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       </main>
       <Footer />
       <WhatsAppFloat />
+      <CookieBanner />
     </div>
   )
 }

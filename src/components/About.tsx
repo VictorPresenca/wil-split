@@ -4,7 +4,7 @@ import { CtaButton } from "./CtaButton";
 
 export function About() {
   return (
-    <section id="quem-somos" className="bg-secondary/60 py-16 md:py-24">
+    <section id="quem-somos" className="bg-secondary/60 scroll-mt-15 py-16 md:py-24">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-[2fr_3fr]">
         <div className="relative mx-auto w-full max-w-sm">
           <div className="overflow-hidden rounded-3xl shadow-lift">

@@ -9,7 +9,7 @@ export function Metrics() {
   ];
 
   return (
-    <section id="resultados" className="py-16 md:py-24">
+    <section id="resultados" className="py-16 scroll-mt-10 md:py-24">
       <div className="mx-auto max-w-6xl px-5">
         <div className="rounded-3xl bg-navy px-8 py-12 shadow-lift md:px-14">
           <div className="grid gap-10 text-center sm:grid-cols-2 lg:grid-cols-4">

@@ -1,5 +1,5 @@
 import { BadgeCheck } from "lucide-react";
-// import willianImg from "@/assets/willian.jpg";
+import willianImg from "../assets/manutencao-compressora-gas.webp";
 import { CtaButton } from "./CtaButton";
 
 export function About() {
@@ -9,7 +9,7 @@ export function About() {
         <div className="relative mx-auto w-full max-w-sm">
           <div className="overflow-hidden rounded-3xl shadow-lift">
             <img
-              src=""
+              src={willianImg}
               alt="Willian Rodrigo, técnico principal da Wil Split"
               loading="lazy"
               width={800}

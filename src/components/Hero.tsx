@@ -1,6 +1,6 @@
 import { BadgeCheck, Users, MapPin, ShieldCheck, Star } from "lucide-react";
-// import heroImg from "@/assets/hero.jpg";
 import { CtaButton } from "./CtaButton";
+import imgHero from "../assets/manutencao-ar-condicionado-teto.webp";
 
 export function Hero() {
   return (
@@ -48,7 +48,7 @@ export function Hero() {
         <div className="relative">
           <div className="overflow-hidden rounded-3xl shadow-lift">
             <img
-              src=""
+              src={imgHero}
               alt="Técnico da Wil Split instalando ar-condicionado split"
               width={1280}
               height={960}

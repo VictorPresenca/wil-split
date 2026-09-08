@@ -1,24 +1,24 @@
 import { Wrench, ShieldCheck, Settings, Send } from "lucide-react";
-// import instalacaoImg from "@/assets/instalacao.jpg";
-// import preventivaImg from "@/assets/preventiva.jpg";
-// import corretivaImg from "@/assets/corretiva.jpg";
+import instalacaoImg from "../assets/compressora-fujitsu-instalada-acima-da-porta.webp";
+import preventivaImg from "../assets/evaporadora-instalada-com-tubulacao-bem-instalada.webp";
+import corretivaImg from "../assets/tubulacao-de-ar-condicionado-com-protecao-na-parede.webp";
 import { WA_LINK } from "./CtaButton";
 
 const SERVICES = [
   {
-    img: 'instalacaoImg',
+    img: instalacaoImg,
     icon: Wrench,
     title: "Instalação",
     desc: "Instalação completa de splits com acabamento impecável, dimensionamento correto e garantia total do serviço.",
   },
   {
-    img: 'preventivaImg',
+    img: preventivaImg,
     icon: ShieldCheck,
     title: "Manutenção Preventiva",
     desc: "Limpeza e revisão periódica que evitam panes, reduzem a conta de energia e prolongam a vida útil do aparelho.",
   },
   {
-    img: 'corretivaImg',
+    img: corretivaImg,
     icon: Settings,
     title: "Manutenção Corretiva",
     desc: "Diagnóstico preciso e reparo rápido para o seu ar-condicionado voltar a gelar como novo, sem dor de cabeça.",
@@ -56,9 +56,6 @@ export function Services() {
                   height={600}
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <span className="absolute bottom-3 left-3 rounded-full bg-navy/85 px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-navy-foreground backdrop-blur-sm">
-                  Antes &amp; Depois
-                </span>
               </div>
               <div className="p-6">
                 <span className="grid size-11 place-items-center rounded-xl bg-accent text-primary">

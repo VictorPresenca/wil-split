@@ -41,7 +41,7 @@ export function Footer() {
               <MapPin className="size-4 text-cta" /> São Paulo e Grande SP
             </p>
             <p className="flex items-center gap-2">
-              <Clock className="size-4 text-cta" /> Seg a Sáb — 8h às 18h
+              <Clock className="size-4 text-cta" /> Aberto 24h
             </p>
           </div>
         </div>

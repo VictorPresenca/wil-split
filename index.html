@@ -44,6 +44,21 @@
     />
     <meta name="twitter:image" content="https://www.wilsplit.com.br/og-image.jpg" />
 
+    <!-- Google Tag Manager / Google Analytics (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HHD8LQ2D29"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // Configuração inicial com consentimento negado por padrão (LGPD/GDPR)
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied'
+      });
+
+      gtag('config', 'G-HHD8LQ2D29');
+    </script>
+
     <!-- Schema.org / Dados Estruturados para Negócio Local (JSON-LD) -->
     <script type="application/ld+json">
       {
